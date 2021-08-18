@@ -7,7 +7,9 @@ def covariance(x, y):
     return: joint variability between x and y (or) just covariance(x,y)
     """
     try:
+        # Imports
         import numpy as np
+
         x_mean = np.mean(x)
         y_mean = np.mean(y)
         cov_nu = 0

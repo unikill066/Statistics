@@ -60,5 +60,5 @@ def covariance_plotting(x, y):
 x = [12, 131, 41, 41, 231, 41, 53, 36, 4, 75, 8, 7, 35, 93, 124, 23, 78, 92, 124, 12, 65, 77, 87, 91]
 y = [1, 2, 3, 4, 5, 6, 7, 8, 9, 101, 11, 24, 6, 7, 23, 41, 45, 26, 72, 72, 89, 47, 82, 92]
 print("\nCovariance of\n", x, "\nand\n", y, "\nis:", covariance(x, y))
-covariance_plotting(x, y)
+# covariance_plotting(x, y) ==> UNCOMMENT to visualize the plot and to save it to the Disk
 

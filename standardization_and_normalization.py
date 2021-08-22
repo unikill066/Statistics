@@ -63,7 +63,7 @@ def normalize(x):
         _max = np.max(x)
         normalized_data = []
         for i in x:
-            normalized_data.append(x - _min/_max - _min)
+            normalized_data.append(i - _min/_max - _min)
         return normalized_data
 
     except Exception as e:
